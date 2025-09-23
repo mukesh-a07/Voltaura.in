@@ -104,7 +104,7 @@ p {
 
 /* Navigation */
 .navbar {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     background: rgba(255, 255, 255, 0.95);
@@ -447,7 +447,8 @@ p {
 }
 
 .card-back .card-icon {
-    color: #1e3a8a;
+    position: absolute;
+    color: #c8cbd4;
 }
 
 .card-title {
@@ -492,6 +493,7 @@ p {
 }
 
 .benefit-tag {
+    position: absolute;
     background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
     color: white;
     padding: 6px 12px;
@@ -808,6 +810,7 @@ p {
 
 .footer-bottom {
     border-top: 1px solid #2d3748;
+    border-bottom: 1px solid #2d3748;
     padding-top: 2rem;
     text-align: center;
 }
@@ -1594,7 +1597,13 @@ p {
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2025 VoltAura. All rights reserved.</p>
+                <p>&copy; 2025 VoltAura. All rights reserved.
+
+                </p>
+            </div>
+
+            <div class="footer-bottom">
+                <span>Designed and Maintained by VoltAura Software development Team</span>     
             </div>
         </div>
     </footer>
